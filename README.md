@@ -99,7 +99,7 @@ The repository contains the following files:
 
 ### Repository Structure
 
-text
+```text
 Electro-Hub-Sales-Analytics-Dashboard
 │
 ├── Electro_Hub_Sales_Analytics_Dashboard.pbix
@@ -112,6 +112,7 @@ Electro-Hub-Sales-Analytics-Dashboard
     ├── comparison-dashboard.png
     ├── edit-interactions-dashboard.png
     └── detailed-data-view.png
+```
 
 
 ## Data Profiling & Data Transformation
@@ -199,7 +200,7 @@ CALCULATE(
 
 ### Sum Of Net Sales
 
-```DAX
+DAX
 Sum Of Net Sales =
 CALCULATE(
     SUM('Fact table'[Net Sales]),
@@ -211,7 +212,7 @@ CALCULATE(
 
 ### Total Profit
 
-```DAX
+DAX
 Total Profit =
 CALCULATE(
     SUM('Fact table'[Profit]),
@@ -223,11 +224,11 @@ CALCULATE(
 
 ### Date Tables
 
-```DAX
+DAX
 Date Table 1 = CALENDARAUTO()
-```
 
-```DAX
+
+DAX
 Date Table 2 = CALENDARAUTO()
 
 ### Purpose of the Measures
