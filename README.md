@@ -399,7 +399,7 @@ comparison-dashboard.png
 - Data Transformation
 - Data Merging
 
-  #### Data Modeling
+#### Data Modeling
 - Primary Key & Foreign Key Relationships
 - Cardinality
 - Star Schema
