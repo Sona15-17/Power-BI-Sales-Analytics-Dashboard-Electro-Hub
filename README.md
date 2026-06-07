@@ -255,7 +255,7 @@ Date Table 2 = CALENDARAUTO()
 
 ### 1. Overview Dashboard
 
-![Overview Dashboard](images/overview-dashboard.png)
+<img width="1258" height="715" alt="Image" src="https://github.com/user-attachments/assets/9e80c263-982d-45d5-9e6e-3f934aacc045" />
 
 The Overview Dashboard provides a high-level summary of overall business performance.
 
@@ -277,7 +277,7 @@ The Overview Dashboard provides a high-level summary of overall business perform
 
 ### 2. Top & Bottom 5 Products Analysis
 
-![Top Bottom 5 Analysis](images/top-bottom-analysis.png)
+<img width="1262" height="717" alt="Image" src="https://github.com/user-attachments/assets/905f0958-6155-4d79-a456-9f0c58722646" />
 
 This dashboard identifies the best and worst performing products based on different business metrics.
 
@@ -304,7 +304,7 @@ This dashboard identifies the best and worst performing products based on differ
 
 ### 3. Sales, Profit & Quantity Comparison Dashboard
 
-![Sales Profit Quantity Comparison](images/comparison-dashboard.png)
+<img width="1263" height="715" alt="Image" src="https://github.com/user-attachments/assets/22b53edc-3061-4e40-aa53-aed5af0cb388" />
 
 This dashboard compares key business metrics across two user-selected time periods.
 
@@ -324,7 +324,7 @@ This dashboard compares key business metrics across two user-selected time perio
 
 ### 4. Edit Interactions Dashboard
 
-![Edit Interactions Dashboard](images/edit-interactions-dashboard.png)
+<img width="1260" height="711" alt="Image" src="https://github.com/user-attachments/assets/3ab655ee-37b3-4af6-890c-7b129ab21def" />
 
 This dashboard demonstrates the implementation of Edit Interactions functionality in Power BI.
 
@@ -342,7 +342,7 @@ This dashboard demonstrates the implementation of Edit Interactions functionalit
 
 ### 5. Detailed Data View
 
-![Detailed Data View](images/detailed-data-view.png)
+<img width="1267" height="718" alt="Image" src="https://github.com/user-attachments/assets/2b82dad0-ed83-4a96-83e8-d94570b6d20c" />
 
 This dashboard provides a detailed transactional view of the dataset.
 
