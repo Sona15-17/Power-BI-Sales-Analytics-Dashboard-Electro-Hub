@@ -188,6 +188,8 @@ This model enables interactive reporting, time-based comparisons, and advanced a
 
 The following DAX measures were created to support comparative analysis of Sales, Profit, and Quantity Sold across different time periods.
 
+### Quantity Sold
+
 ```DAX
 Quantity Sold =
 CALCULATE(
@@ -196,11 +198,13 @@ CALCULATE(
     USERELATIONSHIP(
         'Date Table 2'[Date],
         'Fact table'[Date (dd/mm/yyyy)]
-    ))
+    )
+)
+```
 
 ### Sum Of Net Sales
 
-DAX
+```DAX
 Sum Of Net Sales =
 CALCULATE(
     SUM('Fact table'[Net Sales]),
@@ -208,37 +212,9 @@ CALCULATE(
     USERELATIONSHIP(
         'Date Table 2'[Date],
         'Fact table'[Date (dd/mm/yyyy)]
-    ))
-
-### Total Profit
-
-DAX
-Total Profit =
-CALCULATE(
-    SUM('Fact table'[Profit]),
-    ALL('Date Table 1'),
-    USERELATIONSHIP(
-        'Date Table 2'[Date],
-        'Fact table'[Date (dd/mm/yyyy)]
-    ))
-
-### Date Tables
-
-DAX
-Date Table 1 = CALENDARAUTO()
-
-
-DAX
-Date Table 2 = CALENDARAUTO()
-
-### Purpose of the Measures
-
-- Calculated Total Quantity Sold.
-- Calculated Total Net Sales.
-- Calculated Total Profit.
-- Enabled comparison between different date periods.
-- Used `USERELATIONSHIP()` to activate an alternate date relationship for comparative analysis.
-- Used `ALL()` to remove filters from the primary date table when comparing selected periods.
+    )
+)
+```
 
 
 
