@@ -462,7 +462,6 @@ Aspiring Data Analyst
 
 Skills: Power BI | SQL | MS SQL Server | Tableau
 
-- GitHub: Your GitHub Profile
-- LinkedIn: Your LinkedIn Profile
-edit-interactions-dashboard.png
-detailed-data-view.png
+- GitHub: https://github.com/Sona15-17
+- LinkedIn: www.linkedin.com/in/sonali-sharma-7915b3368
+
