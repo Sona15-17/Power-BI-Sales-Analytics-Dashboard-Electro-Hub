@@ -83,7 +83,7 @@ Contains transactional sales data including:
 **Measures Table**
 - Stores DAX measures used in the dashboard
 
-  ### Data Source
+### Data Source
 
 The data was loaded into Power BI from Excel files and used for sales analysis, data modeling, and dashboard development.
 
