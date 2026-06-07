@@ -390,7 +390,7 @@ comparison-dashboard.png
 - DAX (Data Analysis Expressions)
 - Microsoft Excel
 
-  ### Power BI Concepts Applied
+### Power BI Concepts Applied
 
 #### Data Preparation
 - Data Loading
@@ -412,7 +412,7 @@ comparison-dashboard.png
 - USERELATIONSHIP()
 - CALENDARAUTO()
 
-  #### Visualization Techniques
+#### Visualization Techniques
 - KPI Cards
 - Map Visuals
 - Bar Charts
