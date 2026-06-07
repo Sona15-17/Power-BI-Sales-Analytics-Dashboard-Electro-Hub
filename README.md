@@ -216,8 +216,41 @@ CALCULATE(
 )
 ```
 
+### Total Profit
+
+```DAX
+Total Profit =
+CALCULATE(
+    SUM('Fact table'[Profit]),
+    ALL('Date Table 1'),
+    USERELATIONSHIP(
+        'Date Table 2'[Date],
+        'Fact table'[Date (dd/mm/yyyy)]
+    )
+)
+```
 
 
+### Date Tables
+
+```DAX
+Date Table 1 = CALENDARAUTO()
+```
+
+```DAX
+Date Table 2 = CALENDARAUTO()
+```
+
+### Purpose of the Measures
+
+- Calculated Total Quantity Sold.
+- Calculated Total Net Sales.
+- Calculated Total Profit.
+- Enabled comparison between different date periods.
+- Used `USERELATIONSHIP()` to activate an alternate date relationship for comparative analysis.
+- Used `ALL()` to remove filters from the primary date table when comparing selected periods.
+
+  
 ## Dashboard Pages & Features
 
 ### 1. Overview Dashboard
@@ -346,5 +379,90 @@ This dashboard provides a detailed transactional view of the dataset.
 overview-dashboard.png
 top-bottom-analysis.png
 comparison-dashboard.png
+
+
+## Power BI Features & Tools Used
+
+### Tools Used
+
+- Power BI Desktop
+- Power Query Editor
+- DAX (Data Analysis Expressions)
+- Microsoft Excel
+
+  ### Power BI Concepts Applied
+
+#### Data Preparation
+- Data Loading
+- Data Profiling
+- Data Cleaning
+- Data Transformation
+- Data Merging
+
+  #### Data Modeling
+- Primary Key & Foreign Key Relationships
+- Cardinality
+- Star Schema
+- Relationship Management
+
+#### DAX Functions
+- CALCULATE()
+- SUM()
+- ALL()
+- USERELATIONSHIP()
+- CALENDARAUTO()
+
+  #### Visualization Techniques
+- KPI Cards
+- Map Visuals
+- Bar Charts
+- Line Charts
+- Scatter Charts
+- Table Visuals
+
+#### Interactive Reporting Features
+- Slicers
+- Filters Pane
+- Cross Filtering
+- Edit Interactions
+- Time-Based Analysis
+- Comparative Analysis
+
+### Skills Demonstrated
+
+- Data Cleaning and Transformation
+- Data Modeling
+- Business Intelligence Reporting
+- Dashboard Design
+- DAX Measure Creation
+- Data Visualization
+- Analytical Problem Solving
+  
+## Project Outcome
+
+This project demonstrates the end-to-end development of an interactive Sales Analytics Dashboard using Power BI.
+
+Key outcomes of the project include:
+
+- Performed data profiling and transformation to prepare raw data for analysis.
+- Implemented data modeling concepts including Primary Keys, Foreign Keys, Cardinality, and Star Schema.
+- Created DAX measures to support comparative analysis across different time periods.
+- Developed interactive dashboards for sales, profit, quantity sold, promotions, and city-wise performance analysis.
+- Implemented filters, slicers, and edit interactions to enhance user experience.
+- Enabled business users to identify top and bottom performing products and monitor sales trends effectively.
+- Built a scalable reporting solution that supports data-driven decision-making.
+
+
+  
+## Author
+
+**Sonali Sharma**
+
+Aspiring Data Analyst
+
+Skills: Power BI | SQL | MS SQL Server | Tableau
+
+- GitHub: Your GitHub Profile
+- LinkedIn: Your LinkedIn Profile
 edit-interactions-dashboard.png
 detailed-data-view.png
